@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 3px solid #2D90FB; /* Blue underline */
+    background-color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: larger;
+}
+
+.navbar-logo{
+margin: 0;
+}
+.navbar-logo img{
+    justify-content: flex-start;
+    width: 205.07px;
+    height: auto;
+}
+
+.logo-accent {
+    color: #2D90FB; /* Blue color */
+}
+
+  /* Navbar links */
+.navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar-links li {
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #000;
+}
+

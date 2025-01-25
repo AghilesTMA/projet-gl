@@ -1,0 +1,139 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9fafb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-bottom: 60px;
+    font-size: 4rem; /* Adjust the font size */
+    font-weight: bold; /* Make it stand out */
+    background: linear-gradient(to right, #000305, #2D90FB); /* Define the gradient */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Hide the text color */
+    text-align: center; /* Optional: Align text center */
+  }
+  
+
+  /* Email Form */
+  .email-form {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+.email-title{
+    font-size: medium;
+    font-weight: bold;
+    color: #666;
+}
+
+  .form-label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .email-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #e66b00;
+  }
+  
+  /* Divider */
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .divider span {
+    margin: 0 10px;
+    color: #666;
+  }
+  
+  /* Social Buttons */
+  .social-buttons {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .google-button {
+    color: #333;
+  }
+  
+  .facebook-button {
+    color: #4267b2;
+  }
+  
+  .social-button .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Footer Link */
+  .footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-link {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }

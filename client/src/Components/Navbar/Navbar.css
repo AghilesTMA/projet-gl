@@ -1,0 +1,21 @@
+.navbar {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px;
+  }
+
+.navbar-logo{
+  display: flex;
+  margin: 0px 100px;
+  gap: 10px;
+  align-items: center;  
+  
+}
+
+.navbar-logo img{
+  width: 200px;
+  height: auto;
+
+}  

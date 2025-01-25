@@ -1,0 +1,13 @@
+.properties-type{
+    display: flex;
+    gap: 3px;
+}
+.properties-type1{
+    display: grid;
+    gap: 2px;
+}
+
+.properties-type2{
+    display: grid;
+    gap: 2px;
+}

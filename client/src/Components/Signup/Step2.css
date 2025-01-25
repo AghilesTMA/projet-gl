@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+.progress-bar-wrapper {
+    position: relative;
+    width: 40%; /* Full width of the container */
+    height: 8px; /* Height of the bar */
+    margin-bottom: 20px; /* Space below the bar */
+}
+
+  /* Background bar (unfilled part) */
+.progress-bar-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 4px; /* Rounded corners */
+    margin: 0;
+}
+
+  /* Filled bar (completed part) */
+.progress-bar-fill {
+    position: absolute;
+    height: 100%;
+    border: none;
+    background-color: orange; /* Orange fill color */
+    border-radius: 4px; /* Rounded corners */
+    margin: 0;
+    transition: width 0.3s ease; /* Smooth transition for width */
+}
+.Head {
+    text-align: flex-start;
+    margin-bottom: 20px;
+    color: grey;
+  }
+  
+  .Head p {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .password-form {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    gap: 1rem;
+  }
+.password-title{
+    font-size: medium;
+    font-weight: bold;
+    color: #666;
+}
+
+  .form-label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .password-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #e66b00;
+  }
+  .indications{
+    color: grey;
+    text-align: start;
+    gap: 30px;
+  }
+.indications p{
+font-weight: bold;
+text-align: start;
+}
+.need{
+  gap: 100px;
+}
